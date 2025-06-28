@@ -34,7 +34,7 @@ El firmware está escrito en C++ para el entorno de Arduino.
 
 * **Ubicación:** `/firmware/el_ataraxio_firmware.ino`
 * **Instrucciones:**
-    1.  Configura tu [Arduino IDE para trabajar con el M5StickC PLUS](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino).
+    1.  Configura tu [Arduino IDE para trabajar con el M5StickC PLUS](https://docs.m5stack.com/en/arduino/m5stickc_plus/program).
     2.  Instala las librerías necesarias para los sensores MAX30102 y GSR.
     3.  Modifica las credenciales de tu red Wi-Fi en el archivo `.ino`.
     4.  Carga el firmware en tu M5StickC PLUS.
@@ -102,6 +102,6 @@ Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo `LICEN
 
 ## 🧑‍💻 Autor y Agradecimientos
 
-* **Autor:** Dave (@daveyourmind)
-* Este proyecto es parte del Trabajo Final de Grado "Ataraxia", Licenciatura en Artes Electrónicas.
+* **Autor:** Dave (@daveClausell-AAEE)
+* Este proyecto es parte del Trabajo Final de Grado "Ataraxia" de la Licenciatura en Artes Electrónicas.
 * Agradecimientos especiales a mi asistente de IA, TFG-Gemini, por su colaboración en la estructuración y redacción de la documentación.
