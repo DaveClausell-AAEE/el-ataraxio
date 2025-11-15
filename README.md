@@ -1,6 +1,6 @@
 # El Ataraxio: Biosensor Psicofisiológico para Artes Electrónicas
 
-![El Ataraxio](httpso://i.imgur.com/your-image-url.png) **El Ataraxio** es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
+[El Ataraxio](httpso://i.imgur.com/your-image-url.png) **El Ataraxio** es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
 
 El objetivo principal del proyecto es medir la recuperación del estrés en estudiantes a través de la monitorización de la **Actividad Electrodérmica (EDA)** y la **Variabilidad de la Frecuencia Cardíaca (HRV)**. Más allá de su aplicación científica, El Ataraxio está concebido como una interfaz expresiva con potencial para aplicaciones artísticas, como el control de música y visuales mediante protocolos MIDI y OSC.
 
@@ -96,7 +96,7 @@ La arquitectura en tiempo real de El Ataraxio permite su uso como una **interfaz
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la **Licencia CC BY 4.0**.
+Este proyecto se distribuye bajo la [**Licencia CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.es).
 
 ---
 
