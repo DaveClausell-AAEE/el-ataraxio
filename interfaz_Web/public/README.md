@@ -1,4 +1,4 @@
-# Interfaz Web para Protocolo Experimental TFG
+# Interfaz Web para protocolo experimental (front-end)
 
 Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado (TFG) "Ataraxia" de la Licenciatura en Artes Electrónicas.
 
