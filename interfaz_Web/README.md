@@ -1,4 +1,4 @@
-# Backend del Sistema de TFG (Servidor y Recolección)
+# Back-end del protocolo experimental
 
 Este repositorio contiene los componentes del "backend" para el Trabajo Final de Grado (TFG) [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing).
 
