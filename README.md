@@ -15,7 +15,7 @@ El sistema se divide en dos partes principales:
 
 ---
 
-## 硬件 requerida
+## Hardware requerido
 
 Para construir tu propio "El Ataraxio", necesitarás los siguientes componentes:
 
@@ -96,12 +96,12 @@ La arquitectura en tiempo real de El Ataraxio permite su uso como una **interfaz
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto se distribuye bajo la **Licencia CC BY 4.0**.
 
 ---
 
 ## 🧑‍💻 Autor y Agradecimientos
 
 * **Autor:** Dave (@daveClausell-AAEE)
-* Este proyecto es parte del Trabajo Final de Grado "Ataraxia" de la Licenciatura en Artes Electrónicas.
+* Este proyecto es parte del Trabajo Final de Grado [Ataraxia](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) de la Licenciatura en Artes Electrónicas.
 * Agradecimientos especiales a mi asistente de IA, TFG-Gemini, por su colaboración en la estructuración y redacción de la documentación.
