@@ -1,6 +1,6 @@
 # Interfaz Web para protocolo experimental (front-end)
 
-Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado (TFG) "Ataraxia" de la Licenciatura en Artes Electrónicas.
+Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado (TFG) [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) de la Licenciatura en Artes Electrónicas.
 
 El objetivo de esta aplicación es guiar al participante y al investigador a través de las distintas fases del protocolo experimental, asegurando una experiencia estandarizada y controlada.
 
