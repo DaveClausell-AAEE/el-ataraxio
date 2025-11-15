@@ -1,6 +1,6 @@
 # El Ataraxio: Biosensor Psicofisiológico para Artes Electrónicas
 
-[El Ataraxio](httpso://i.imgur.com/your-image-url.png) **El Ataraxio** es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
+[**El Ataraxio**](httpso://i.imgur.com/your-image-url.png) es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
 
 El objetivo principal del proyecto es medir la recuperación del estrés en estudiantes a través de la monitorización de la **Actividad Electrodérmica (EDA)** y la **Variabilidad de la Frecuencia Cardíaca (HRV)**. Más allá de su aplicación científica, El Ataraxio está concebido como una interfaz expresiva con potencial para aplicaciones artísticas, como el control de música y visuales mediante protocolos MIDI y OSC.
 
@@ -103,5 +103,5 @@ Este proyecto se distribuye bajo la [**Licencia CC BY 4.0**](https://creativecom
 ## 🧑‍💻 Autor y Agradecimientos
 
 * **Autor:** Dave (@daveClausell-AAEE)
-* Este proyecto es parte del Trabajo Final de Grado [Ataraxia](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) de la Licenciatura en Artes Electrónicas.
+* Este proyecto es parte del Trabajo Final de Grado [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) de la Licenciatura en Artes Electrónicas.
 * Agradecimientos especiales a mi asistente de IA, TFG-Gemini, por su colaboración en la estructuración y redacción de la documentación.
