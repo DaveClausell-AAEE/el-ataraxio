@@ -4,8 +4,6 @@ Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado
 
 El objetivo de esta aplicación es guiar al participante y al investigador a través de las distintas fases del protocolo experimental, asegurando una experiencia estandarizada y controlada.
 
-![Captura de pantalla de la interfaz de bienvenida](httpsF://ruta/a/tu/imagen.png)
-*(Reemplazá esto con una captura de pantalla real de tu app si lo deseás)*
 
 ## Contexto del Proyecto
 
