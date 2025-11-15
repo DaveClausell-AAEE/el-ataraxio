@@ -1,6 +1,6 @@
 # Interfaz Web para Protocolo Experimental TFG
 
-Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado (TFG) "Artes Electrónicas, Psicofisiología y Metacognición: Explorando la Recuperación del Estrés en Estudiantes Universitarios" de la Licenciatura en Artes Electrónicas.
+Esta interfaz web (frontend) es un componente central del Trabajo Final de Grado (TFG) "Ataraxia" de la Licenciatura en Artes Electrónicas.
 
 El objetivo de esta aplicación es guiar al participante y al investigador a través de las distintas fases del protocolo experimental, asegurando una experiencia estandarizada y controlada.
 
