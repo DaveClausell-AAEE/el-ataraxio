@@ -1,8 +1,8 @@
 # Backend del Sistema de TFG (Servidor y Recolección)
 
-Este repositorio contiene los componentes del "backend" para el Trabajo Final de Grado (TFG) "**Ataraxia**".
+Este repositorio contiene los componentes del "backend" para el Trabajo Final de Grado (TFG) [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing).
 
-Estos scripts son el puente entre la [Interfaz Web (Frontend)](https://github.com/usuario/repo-frontend) y el hardware de recolección de datos (sensor fisiológico).
+Estos scripts son el puente entre la [Interfaz Web (Frontend)](https://github.com/DaveClausell-AAEE/el-ataraxio/tree/main/interfaz_Web/public) y el hardware de recolección de datos (sensor fisiológico).
 
 ## 🚀 Propósito del Sistema
 
