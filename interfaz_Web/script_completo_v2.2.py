@@ -11,7 +11,7 @@
     a partir de un archivo CSV existente para la fase de
     entrevista.
  AUTOR: [Dave Clausell]
- REPOSITORIO: https://github.com/DaveClausell-AAEE/el-ataraxio
+ REPOSITORIO: https://github.com/DaveClausell-AAEE/Ataraxia
  LICENCIA: Publicado bajo licencia CC BY 4.0
 =================================================================
 """
