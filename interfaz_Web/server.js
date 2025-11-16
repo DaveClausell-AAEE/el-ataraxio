@@ -7,7 +7,7 @@
  2. Asigna grupos experimentales de forma balanceada.
  3. Recibe los datos finales del experimento y los guarda como archivos .json.
  AUTOR: [Dave Clausell]
- REPOSITORIO: https://github.com/DaveClausell-AAEE/el-ataraxio
+ REPOSITORIO: https://github.com/DaveClausell-AAEE/Ataraxia
  LICENCIA: Publicado bajo licencia CC BY 4.0
 =================================================================
 */
