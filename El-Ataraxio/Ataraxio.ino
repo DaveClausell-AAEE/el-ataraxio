@@ -1,28 +1,21 @@
+/*
+=================================================================
+ ARCHIVO: Ataraxio.inos
+ DESCRIPCIÓN: Script para la lectura y envío de datos GSR
+ AUTOR: [Dave Clausell]
+ REPOSITORIO: https://github.com/DaveClausell-AAEE/Ataraxia
+ LICENCIA: Publicado bajo licencia CC BY 4.0
+=================================================================
+*/
+
 #include <M5StickCPlus.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
 // --- Configuración de Red ---
-//--------------------------------------------------
-//const char* ssid = "AIREBAN";
-//const char* password = "07701768";
-//const char* udpAddress = "192.168.1.28";
-//--------------------------------------------------
-//const char* ssid = "TeleRed-4601";
-//const char* password = "5C68FF4601";
-//const char* udpAddress = "192.168.0.7";
-//--------------------------------------------------
-//const char* ssid = "Personal-03A";
-//const char* password = "2FF70AC03A";
-//const char* udpAddress = "192.168.0.111";
-//--------------------------------------------------
-//const char* ssid = "Zonanet Nicolas";
-//const char* password = "10111976";
-//const char* udpAddress = "192.168.1.107";
-//--------------------------------------------------
-const char* ssid = "MUNTREF ARTE Y CIENCIA PB";
-const char* password = "arteycienciaPB";
-const char* udpAddress = "192.168.0.192";
+const char* ssid = "INTRODUCIR SSID (RED)";
+const char* password = "INTRODUCIR CONTRASEÑA";
+const char* udpAddress = "INTRODUCIR IP DE LA PC ANFITRIONA";
 //--------------------------------------------------
 const int udpPort = 12345;
 WiFiUDP udp;
@@ -36,7 +29,7 @@ bool sendingIndicatorState = false;
 const int GSR_PIN = 36; 
 
 // =================================================================
-// --- NUEVO: FUNCIÓN PARA DIBUJAR EL ÍCONO DE LA BATERÍA ---
+// --- FUNCIÓN PARA DIBUJAR EL ÍCONO DE LA BATERÍA ---
 // =================================================================
 void drawBattery(float voltage, int percentage) {
     // Dibuja el cuerpo del ícono de la batería
@@ -102,7 +95,7 @@ void loop() {
     M5.Lcd.setTextSize(3);
     M5.Lcd.printf("%d", gsrRaw);
 
-    // --- NUEVO: Lógica para leer y mostrar el estado de la batería ---
+    // --- Lógica para leer y mostrar el estado de la batería ---
     float battVoltage = M5.Axp.GetBatVoltage();
     // El rango de voltaje de la batería del M5StickC Plus es aprox 3.0V (vacía) a 4.2V (llena)
     int battPercentage = map(constrain(battVoltage * 1000, 3000, 4200), 3000, 4200, 0, 100);
