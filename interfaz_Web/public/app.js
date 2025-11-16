@@ -4,7 +4,7 @@
  DESCRIPCIÓN: Lógica principal de la aplicación web del
  protocolo experimental TFG.
  AUTOR: [Dave Clausell]
- REPOSITORIO: https://github.com/DaveClausell-AAEE/el-ataraxio
+ REPOSITORIO: https://github.com/DaveClausell-AAEE/Ataraxia
  LICENCIA: Publicado bajo licencia CC BY 4.0
 =================================================================
 */
