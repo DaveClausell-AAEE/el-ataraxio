@@ -2,7 +2,7 @@
 
 [**El Ataraxio**](httpso://i.imgur.com/your-image-url.png) es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
 
-El objetivo principal del proyecto es medir la recuperación del estrés en estudiantes a través de la monitorización de la **Actividad Electrodérmica (EDA)** y la **Variabilidad de la Frecuencia Cardíaca (HRV)**. Más allá de su aplicación científica, El Ataraxio está concebido como una interfaz expresiva con potencial para aplicaciones artísticas, como el control de música y visuales mediante protocolos MIDI y OSC.
+El objetivo principal del proyecto es medir la recuperación del estrés en estudiantes a través de la monitorización de la **Actividad Electrodérmica (EDA)** Más allá de su aplicación científica, El Ataraxio está concebido como una interfaz expresiva con potencial para aplicaciones artísticas, como el control de música y visuales mediante protocolos MIDI y OSC.
 
 ---
 
@@ -20,7 +20,6 @@ El sistema se divide en dos partes principales:
 Para construir tu propio "El Ataraxio", necesitarás los siguientes componentes:
 
 * **Microcontrolador:** [M5StickC PLUS](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?srsltid=AfmBOorM8-rrSbs43pfgOGreBtVWAtOnfpky98-ryTA0g_aHYnOd9dNb)
-* **Sensor de HRV/Pulso:** Sensor de Pulsioximetría [MAX30102](https://www.analog.com/en/products/max30102.html)
 * **Sensor de EDA/GSR:** Un sensor de Respuesta Galvánica de la Piel (ej. [Grove - GSR Sensor](https://www.seeedstudio.com/Grove-GSR-Sensor-p-1614.html))
 * Cables de conexión (protoboard o PCB personalizada)
 
