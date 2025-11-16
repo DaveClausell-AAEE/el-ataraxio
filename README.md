@@ -46,7 +46,7 @@ Aquí encontrarás:
 
 ## 📜 El Documento TFG
 
-El documento PDF completo **`Ataraxia.pdf`** (126 páginas) que detalla el marco teórico, la metodología, el desarrollo, los resultados y las conclusiones de esta investigación se encuentra en la raíz de este repositorio.
+Aquí encontrarás el documento PDF completo [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) que detalla el marco teórico, la metodología, el desarrollo, los resultados y las conclusiones de esta investigación.
 
 Es la guía maestra para entender el *por qué* y el *cómo* de todas las herramientas aquí presentes.
 
