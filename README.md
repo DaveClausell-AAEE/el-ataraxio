@@ -1,107 +1,70 @@
-# El Ataraxio: Biosensor Psicofisiológico para Artes Electrónicas
+# ἀταραξία (Ataraxia)
 
-[**El Ataraxio**](httpso://i.imgur.com/your-image-url.png) es un dispositivo de hardware y software de código abierto diseñado para la adquisición y análisis en tiempo real de señales psicofisiológicas. Fue creado como la herramienta principal del Trabajo Final de Grado (TFG) "Ataraxia", de la Licenciatura en Artes Electrónicas.
+## Artes Electrónicas, Psicofisiología y Metacognición: Explorando la recuperación del estrés en estudiantes universitarios
 
-El objetivo principal del proyecto es medir la recuperación del estrés en estudiantes a través de la monitorización de la **Actividad Electrodérmica (EDA)** y la **Variabilidad de la Frecuencia Cardíaca (HRV)**. Más allá de su aplicación científica, El Ataraxio está concebido como una interfaz expresiva con potencial para aplicaciones artísticas, como el control de música y visuales mediante protocolos MIDI y OSC.
+Este repositorio contiene todos los componentes, la investigación y el desarrollo del Trabajo Final de Grado (TFG) **"Ataraxia"**, presentado por **Dave Clausell** para la Licenciatura en Artes Electrónicas de la Universidad Nacional de Tres de Febrero (UNTREF), con la tutoría de Bruno Mesz.
 
----
+El proyecto integra las Artes Electrónicas, la psicofisiología y la investigación educativa para investigar cómo los estímulos sensoriales transmodales (paisajes sonoros y aromas) influyen en la recuperación fisiológica del estrés cognitivo en estudiantes universitarios.
 
-## 🛠️ Componentes del Proyecto
+Un segundo objetivo clave es evaluar cómo una fase de **biofeedback diferido** y reflexión guiada puede fomentar la autoconciencia y la comprensión metacognitiva de los estudiantes sobre sus propias respuestas al estrés.
 
-El sistema se divide en dos partes principales:
+Todo el desarrollo se comparte bajo una filosofía de **hardware y software libre**, buscando democratizar el acceso a estas herramientas de investigación y bienestar.
 
-1.  **Dispositivo Físico (Hardware + Firmware):** Un dispositivo portátil basado en el microcontrolador M5StickC PLUS que captura los datos de los sensores.
-2.  **Aplicación Anfitriona (Software en Python):** Un script que se ejecuta en un ordenador, encargado de recibir, analizar, visualizar y registrar los datos enviados por el dispositivo.
+## 🏛️ Estructura del Repositorio
 
----
+Este repositorio está organizado en tres directorios principales, cada uno conteniendo una parte fundamental del proyecto para su total replicación:
 
-## Hardware requerido
+### 1. [`/El-Ataraxio`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/El-Ataraxio) - El Dispositivo
 
-Para construir tu propio "El Ataraxio", necesitarás los siguientes componentes:
+Contiene toda la documentación técnica para construir **"El Ataraxio"**, el dispositivo biométrico de hardware libre (basado en Arduino/ESP) desarrollado para este TFG, capaz de medir la Actividad Electrodermal (EDA) y la Frecuencia Cardíaca (FC).
 
-* **Microcontrolador:** [M5StickC PLUS](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?srsltid=AfmBOorM8-rrSbs43pfgOGreBtVWAtOnfpky98-ryTA0g_aHYnOd9dNb)
-* **Sensor de HRV/Pulso:** Sensor de Pulsioximetría [MAX30102](https://www.analog.com/en/products/max30102.html)
-* **Sensor de EDA/GSR:** Un sensor de Respuesta Galvánica de la Piel (ej. [Grove - GSR Sensor](https://www.seeedstudio.com/Grove-GSR-Sensor-p-1614.html))
-* Cables de conexión (protoboard o PCB personalizada)
+En esta carpeta encontrarás:
 
----
+* **Hardware:** Diagramas de circuito, lista de componentes (BOM) y esquemáticos (PCB) para ensamblar el sensor.
+* **Software (Firmware):** El código (`.ino`) que corre en el microcontrolador para leer los datos de los sensores y enviarlos al ordenador.
+* **Guías de Calibración:** Notas sobre cómo probar y calibrar el sensor para obtener lecturas fiables.
 
-## 💻 Software e Instalación
+### 2. [`/interfaz_Web`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/interfaz_Web) - El Protocolo Experimental
 
-### 1. Firmware del Dispositivo
+Este directorio aloja la aplicación web (frontend) que guía al participante y al investigador a través de todo el protocolo experimental. Es el "cerebro" de la sesión que controla el flujo de la experiencia.
 
-El firmware está escrito en C++ para el entorno de Arduino.
+Incluye:
 
-* **Ubicación:** `/firmware/el_ataraxio_firmware.ino`
-* **Instrucciones:**
-    1.  Configura tu [Arduino IDE para trabajar con el M5StickC PLUS](https://docs.m5stack.com/en/arduino/m5stickc_plus/program).
-    2.  Instala las librerías necesarias para los sensores MAX30102 y GSR.
-    3.  Modifica las credenciales de tu red Wi-Fi en el archivo `.ino`.
-    4.  Carga el firmware en tu M5StickC PLUS.
+* **Código Fuente:** Los archivos `index.html`, `style.css` y `app.js` que componen la interfaz.
+* **Lógica del Experimento:** Controla las fases de Línea Base, Tarea de Estrés (Stroop), Fase de Relajación (con/sin estímulos) y la pantalla de Biofeedback final.
+* **Backend:** Los scripts de `server.js` (Node.js) y `script_completo.py` (Python) que gestionan la comunicación, guardado de datos, y generación de gráficos.
+* **Guía de Uso:** Instrucciones detalladas sobre cómo instalar y ejecutar el sistema completo.
 
-### 2. Aplicación Anfitriona (Python)
+### 3. [`/Colab`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/Colab) - Análisis de Datos
 
-El script anfitrión requiere un entorno de Python 3. Se recomienda encarecidamente utilizar un entorno virtual.
+Contiene los scripts y notebooks de Python (orientados a Google Colab) utilizados para el **análisis de los datos cualitativos**, es decir, las entrevistas semi-estructuradas.
 
-* **Ubicación:** `/host_app/monitor_fisiologico.py`
-* **Instrucciones de configuración:**
+Aquí encontrarás:
 
-    1.  **Clona este repositorio:**
-        ```bash
-        git clone [https://github.com/daveyourmind/el-ataraxio.git](https://github.com/daveyourmind/el-ataraxio.git)
-        cd el-ataraxio
-        ```
+* **Notebooks de Google Colab:** Scripts de Procesamiento de Lenguaje Natural (NLP).
+* **Análisis de Entrevistas:** Métodos utilizados para analizar las transcripciones de las entrevistas de metacognición, buscando patrones, sentimientos y temas emergentes en la reflexión de los participantes.
 
-    2.  **Crea y activa un entorno virtual:**
-        ```bash
-        python3 -m venv venv
-        source venv/bin/activate
-        ```
+## 📜 El Documento TFG
 
-    3.  **Crea un archivo `requirements.txt`** dentro de la carpeta `host_app` con el siguiente contenido:
-        ```txt
-        numpy
-        matplotlib
-        pyhrv
-        peakutils
-        ```
+El documento PDF completo **`Ataraxia.pdf`** (126 páginas) que detalla el marco teórico, la metodología, el desarrollo, los resultados y las conclusiones de esta investigación se encuentra en la raíz de este repositorio.
 
-    4.  **Instala las dependencias** desde ese archivo:
-        ```bash
-        pip install -r host_app/requirements.txt
-        ```
+Es la guía maestra para entender el *por qué* y el *cómo* de todas las herramientas aquí presentes.
 
----
+## ⚖️ Licencia
 
-## 🚀 Cómo Usar el Sistema
+Este trabajo y todos sus componentes (software, hardware y documentación escrita) se publican bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**.
 
-1.  **Enciende El Ataraxio.** Asegúrate de que esté conectado a la misma red Wi-Fi que tu ordenador. Anota la dirección IP que muestra en su pantalla al conectarse.
-2.  **Configura el script de Python.** Abre el archivo `monitor_fisiologico.py` y, si es necesario, ajusta la dirección IP y el puerto UDP para que coincidan con la configuración de tu red.
-3.  **Ejecuta la aplicación anfitriona.** Desde tu terminal (con el entorno virtual activado), corre el script:
-    ```bash
-    python3 host_app/monitor_fisiologico.py
-    ```
-4.  ¡Listo! Deberías ver una ventana con tres gráficos que se actualizan en tiempo real con los datos fisiológicos recibidos. Los datos también se guardarán en un archivo `.csv` en la carpeta del script.
+[![Licencia CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
----
+Sos libre de:
 
-## 🎨 Aplicaciones Futuras y Potencial Artístico
+* **Compartir:** Copiar y redistribuir el material en cualquier medio o formato.
+* **Adaptar:** Remezclar, transformar y construir a partir del material para cualquier propósito, incluso comercial.
 
-La arquitectura en tiempo real de El Ataraxio permite su uso como una **interfaz performática**. El script de Python puede ser extendido para enviar datos a través de protocolos como:
+Bajo la única condición de que **debes dar el crédito apropiado** (atribución), proporcionando un enlace a esta licencia e indicando si se realizaron cambios.
 
-* **MIDI:** Para controlar sintetizadores, samplers y efectos de audio.
-* **OSC (Open Sound Control):** Para interactuar con entornos de programación visual y sonora como TouchDesigner, Max/MSP o Pure Data.
+## 💬 Cita y Contacto
 
----
+Si utilizás este trabajo, por favor citálo de la siguiente manera:
 
-## 📄 Licencia
-
-Este proyecto se distribuye bajo la [**Licencia CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.es).
-
----
-
-## 🧑‍💻 Autor y Agradecimientos
-
-* **Autor:** Dave (@daveClausell-AAEE)
-* Este proyecto es parte del Trabajo Final de Grado [**Ataraxia**](https://drive.google.com/file/d/1WQMaPPxe6ooSJ6NqvCiVL0xOhNEgWiBL/view?usp=sharing) de la Licenciatura en Artes Electrónicas.
-* Agradecimientos especiales a mi asistente de IA, TFG-Gemini, por su colaboración en la estructuración y redacción de la documentación.
+> Clausell, Dave. (2025). *ἀταραξία (Ataraxia): Artes Electrónicas, Psicofisiología y Metacognición: Explorando la Recuperación del Estrés en Estudiantes Universitarios*. Trabajo Final de Grado, Licenciatura en Artes Electrónicas, Universidad Nacional de Tres de Febrero (UNTREF). Repositorio: [https://github.com/DaveClausell-AAEE/Ataraxia](https://github.com/DaveClausell-AAEE/Ataraxia)
