@@ -1,6 +1,6 @@
 # ἀταραξία (Ataraxia)
 
-## Artes Electrónicas, Psicofisiología y Metacognición: Explorando la recuperación del estrés en estudiantes universitarios
+## Artes Electrónicas, psicofisiología y metacognición: explorando la recuperación del estrés en estudiantes universitarios
 
 Este repositorio contiene todos los componentes, la investigación y el desarrollo del Trabajo Final de Grado (TFG) **"Ataraxia"**, presentado por **Dave Clausell** para la Licenciatura en Artes Electrónicas de la Universidad Nacional de Tres de Febrero (UNTREF), con la tutoría de Bruno Mesz.
 
