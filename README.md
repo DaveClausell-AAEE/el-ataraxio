@@ -69,6 +69,6 @@ Si utilizás este trabajo, por favor citálo de la siguiente manera:
 
 > Clausell, Dave. (2025). *ἀταραξία (Ataraxia): Artes Electrónicas, Psicofisiología y Metacognición: Explorando la Recuperación del Estrés en Estudiantes Universitarios*. Trabajo Final de Grado, Licenciatura en Artes Electrónicas, Universidad Nacional de Tres de Febrero (UNTREF). Repositorio: [https://github.com/DaveClausell-AAEE/Ataraxia](https://github.com/DaveClausell-AAEE/Ataraxia)
 
-dclausell@untref.edu.ar
+## dclausell@untref.edu.ar
 ## [**Site**](https://sites.google.com/untref.edu.ar/daveclausell/inicio)
 ## [**Linkedin**](https://www.linkedin.com/in/davidclausell/)
