@@ -10,11 +10,11 @@ Un segundo objetivo clave es evaluar cómo una fase de **biofeedback diferido** 
 
 Todo el desarrollo se comparte bajo una filosofía de **hardware y software libre**, buscando democratizar el acceso a estas herramientas de investigación y bienestar.
 
-## 🏛️ Estructura del Repositorio
+## 🏛️ Estructura del repositorio
 
 Este repositorio está organizado en tres directorios principales, cada uno conteniendo una parte fundamental del proyecto para su total replicación:
 
-### 1. [`/El-Ataraxio`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/El-Ataraxio) - El Dispositivo
+### 1. [`/El-Ataraxio`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/El-Ataraxio) - El dispositivo
 
 Contiene toda la documentación técnica para construir **"El Ataraxio"**, el dispositivo biométrico de hardware libre (basado en Arduino/ESP) desarrollado para este TFG, capaz de medir la Actividad Electrodermal (EDA) y la Frecuencia Cardíaca (FC).
 
@@ -24,7 +24,7 @@ En esta carpeta encontrarás:
 * **Software (Firmware):** El código (`.ino`) que corre en el microcontrolador para leer los datos de los sensores y enviarlos al ordenador.
 * **Guías de Calibración:** Notas sobre cómo probar y calibrar el sensor para obtener lecturas fiables.
 
-### 2. [`/interfaz_Web`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/interfaz_Web) - El Protocolo Experimental
+### 2. [`/interfaz_Web`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/interfaz_Web) - El protocolo experimental
 
 Este directorio aloja la aplicación web (frontend) que guía al participante y al investigador a través de todo el protocolo experimental. Es el "cerebro" de la sesión que controla el flujo de la experiencia.
 
@@ -35,7 +35,7 @@ Incluye:
 * **Backend:** Los scripts de `server.js` (Node.js) y `script_completo.py` (Python) que gestionan la comunicación, guardado de datos, y generación de gráficos.
 * **Guía de Uso:** Instrucciones detalladas sobre cómo instalar y ejecutar el sistema completo.
 
-### 3. [`/Colab`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/Colab) - Análisis de Datos
+### 3. [`/Colab`](https://github.com/DaveClausell-AAEE/Ataraxia/tree/main/Colab) - Análisis de datos
 
 Contiene los scripts y notebooks de Python (orientados a Google Colab) utilizados para el **análisis de los datos cualitativos**, es decir, las entrevistas semi-estructuradas.
 
@@ -63,7 +63,7 @@ Sos libre de:
 
 Bajo la única condición de que **debes dar el crédito apropiado** (atribución), proporcionando un enlace a esta licencia e indicando si se realizaron cambios.
 
-## 💬 Cita y Contacto
+## 💬 Cita y contacto
 
 Si utilizás este trabajo, por favor citálo de la siguiente manera:
 
